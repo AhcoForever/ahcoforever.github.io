@@ -2,11 +2,65 @@
   
   {
     "title": "파쿠르 스팟 앱 UI/UX",
+    "url": "/posts/example/",
+    "categories": "파쿠르 스팟(Parkour Spot in Korea), Design/UI·UX",
+    "tags": "parkourspot, figma",
+    "date": "2025-09-01 10:00:00 +0900",
+    "content": "파쿠르 스팟 애플리케이션의 전반적 UI 설명"
+  },
+  
+  {
+    "title": "파쿠르 스팟 앱 UI/UX",
     "url": "/posts/UIUX/",
     "categories": "파쿠르 스팟(Parkour Spot in Korea), Design/UI·UX",
     "tags": "parkourspot, figma",
     "date": "2025-09-01 10:00:00 +0900",
-    "content": "                           "
+    "content": "                        "
+  },
+  
+  {
+    "title": "1. Firestore에 마이그레이션한 JSON 데이터로 Google Maps Polygon 시각화하기",
+    "url": "/posts/tech/",
+    "categories": "파쿠르 스팟(Parkour Spot in Korea), 기술/기능",
+    "tags": "parkourspot, firestore, migration, polygon, googlemap",
+    "date": "2025-08-03 10:00:00 +0900",
+    "content": " "
+  },
+  
+  {
+    "title": "사용법",
+    "url": "/posts/introduce/",
+    "categories": "파쿠르 스팟(Parkour Spot in Korea), docs",
+    "tags": "parkourspot",
+    "date": "2025-08-01 10:00:00 +0900",
+    "content": " "
+  },
+  
+  {
+    "title": "AWS을 사용한 시스템 성능 개선 제안서",
+    "url": "/posts/aws/",
+    "categories": "AWS, 프로젝트(Project)",
+    "tags": "project, aws",
+    "date": "2021-03-31 10:00:00 +0900",
+    "content": "창고 관리 DB 개요  Presentation "
+  },
+  
+  {
+    "title": "창고 관리 DB",
+    "url": "/posts/mywarehouse/",
+    "categories": "MySQL, 프로젝트(Project)",
+    "tags": "project, mysql",
+    "date": "2019-11-11 10:00:00 +0900",
+    "content": "창고 관리 DB 개요  Presentation   Report   "
+  },
+  
+  {
+    "title": "ATM 프로그램",
+    "url": "/posts/ATM/",
+    "categories": "Java, 프로젝트(Project)",
+    "tags": "project, java",
+    "date": "2016-12-08 10:00:00 +0900",
+    "content": "Java 로 작성한 간이 ATM 프로그램"
   }
   
 ]

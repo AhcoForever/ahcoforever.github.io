@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Home | Minyoung Kim</title>
   <subtitle>Minyoung's blog</subtitle>
-  <updated>2025-09-01T22:20:01+09:00</updated>
+  <updated>2025-09-02T00:05:51+09:00</updated>
   <author>
     <name>Minyoung Kim</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,32 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>파쿠르 스팟 앱 UI/UX</title>
+    <link href="http://localhost:4000/posts/example/" rel="alternate" type="text/html" title="파쿠르 스팟 앱 UI/UX" />
+    <published>2025-09-01T10:00:00+09:00</published>
+  
+    <updated>2025-09-01T10:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/example/</id>
+    <content type="text/html" src="http://localhost:4000/posts/example/" />
+    <author>
+      <name>Minyoung Kim</name>
+    </author>
+
+  
+    
+    <category term="파쿠르 스팟(Parkour Spot in Korea)" />
+    
+    <category term="Design/UI·UX" />
+    
+  
+
+  <summary>파쿠르 스팟 애플리케이션의 전반적 UI 설명</summary>
+
+  </entry>
 
   
   <entry>
@@ -41,6 +67,84 @@
   
 
   <summary></summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>1. Firestore에 마이그레이션한 JSON 데이터로 Google Maps Polygon 시각화하기</title>
+    <link href="http://localhost:4000/posts/tech/" rel="alternate" type="text/html" title="1. Firestore에 마이그레이션한 JSON 데이터로 Google Maps Polygon 시각화하기" />
+    <published>2025-08-03T10:00:00+09:00</published>
+  
+    <updated>2025-08-03T10:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/tech/</id>
+    <content type="text/html" src="http://localhost:4000/posts/tech/" />
+    <author>
+      <name>Minyoung Kim</name>
+    </author>
+
+  
+    
+    <category term="파쿠르 스팟(Parkour Spot in Korea)" />
+    
+    <category term="기술/기능" />
+    
+  
+
+  <summary></summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>사용법</title>
+    <link href="http://localhost:4000/posts/introduce/" rel="alternate" type="text/html" title="사용법" />
+    <published>2025-08-01T10:00:00+09:00</published>
+  
+    <updated>2025-09-01T22:21:18+09:00</updated>
+  
+    <id>http://localhost:4000/posts/introduce/</id>
+    <content type="text/html" src="http://localhost:4000/posts/introduce/" />
+    <author>
+      <name>Minyoung Kim</name>
+    </author>
+
+  
+    
+    <category term="파쿠르 스팟(Parkour Spot in Korea)" />
+    
+    <category term="docs" />
+    
+  
+
+  <summary></summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>AWS을 사용한 시스템 성능 개선 제안서</title>
+    <link href="http://localhost:4000/posts/aws/" rel="alternate" type="text/html" title="AWS을 사용한 시스템 성능 개선 제안서" />
+    <published>2021-03-31T10:00:00+09:00</published>
+  
+    <updated>2021-03-31T10:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/aws/</id>
+    <content type="text/html" src="http://localhost:4000/posts/aws/" />
+    <author>
+      <name>Minyoung Kim</name>
+    </author>
+
+  
+    
+    <category term="AWS" />
+    
+    <category term="프로젝트(Project)" />
+    
+  
+
+  <summary>창고 관리 DB 개요  Presentation</summary>
 
   </entry>
 
