@@ -3,7 +3,6 @@ source "https://rubygems.org"
 
 gem "jekyll", ">= 4.3", "< 5.0"
 
-gem "jekyll-theme-chirpy", "~> 7.3"
 gem "jekyll-remote-theme"
 
 gem "webrick", "~> 1.8"
