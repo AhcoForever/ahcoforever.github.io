@@ -6,4 +6,4 @@ categories: [Ansible, summarize]
 tags: [ansible, devops]     # 태그는 소문자 권장
 ---
 
-<iframe src="https://www.notion.so/Ansible-DevOps-de1fc9501f0440e3ab256dab8563e2b1?source=copy_link" width="100%" height="600px"></iframe>
+ <iframe src="https://rightful-height-63a.notion.site/ebd/de1fc9501f0440e3ab256dab8563e2b1" width="100%" height="600" frameborder="0" allowfullscreen />
