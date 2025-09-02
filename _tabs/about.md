@@ -8,7 +8,7 @@ order: 4
 ## 🛠 Tech Stack
 - **Languages**: Dart, Python, Java, Linux
 - **Mobile**: Flutter (iOS & Android)  
-- **Backend / Cloud**: Firebase (Auth, Firestore), GCP, Microsoft 365, Exchange Server, AWS
+- **Backend / Cloud**: Firebase (Auth, Firestore), GCP, Microsoft 365, AWS, Exchange Server, Window Server
 - **Database**: Firestore, Drift(SQLite), MySQL, 
 - **Tools**: GitHub, Figma
 
