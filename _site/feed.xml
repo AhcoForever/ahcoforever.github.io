@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Home | Minyoung Kim</title>
   <subtitle>Minyoung's blog</subtitle>
-  <updated>2025-09-02T00:05:51+09:00</updated>
+  <updated>2025-09-02T15:31:25+09:00</updated>
   <author>
     <name>Minyoung Kim</name>
     <uri>http://localhost:4000/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>파쿠르 스팟 앱 UI/UX</title>
-    <link href="http://localhost:4000/posts/example/" rel="alternate" type="text/html" title="파쿠르 스팟 앱 UI/UX" />
+    <title>파쿠르 스팟 앱 UI/UX(수정중...)</title>
+    <link href="http://localhost:4000/posts/UIUX/" rel="alternate" type="text/html" title="파쿠르 스팟 앱 UI/UX(수정중...)" />
     <published>2025-09-01T10:00:00+09:00</published>
   
-    <updated>2025-09-01T10:00:00+09:00</updated>
+    <updated>2025-09-02T15:01:52+09:00</updated>
   
-    <id>http://localhost:4000/posts/example/</id>
-    <content type="text/html" src="http://localhost:4000/posts/example/" />
+    <id>http://localhost:4000/posts/UIUX/</id>
+    <content type="text/html" src="http://localhost:4000/posts/UIUX/" />
     <author>
       <name>Minyoung Kim</name>
     </author>
@@ -46,37 +46,11 @@
 
   
   <entry>
-    <title>파쿠르 스팟 앱 UI/UX</title>
-    <link href="http://localhost:4000/posts/UIUX/" rel="alternate" type="text/html" title="파쿠르 스팟 앱 UI/UX" />
-    <published>2025-09-01T10:00:00+09:00</published>
-  
-    <updated>2025-09-01T10:00:00+09:00</updated>
-  
-    <id>http://localhost:4000/posts/UIUX/</id>
-    <content type="text/html" src="http://localhost:4000/posts/UIUX/" />
-    <author>
-      <name>Minyoung Kim</name>
-    </author>
-
-  
-    
-    <category term="파쿠르 스팟(Parkour Spot in Korea)" />
-    
-    <category term="Design/UI·UX" />
-    
-  
-
-  <summary></summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>1. Firestore에 마이그레이션한 JSON 데이터로 Google Maps Polygon 시각화하기</title>
-    <link href="http://localhost:4000/posts/tech/" rel="alternate" type="text/html" title="1. Firestore에 마이그레이션한 JSON 데이터로 Google Maps Polygon 시각화하기" />
+    <title>1. Firestore에 마이그레이션한 JSON 데이터로 Google Maps Polygon 시각화하기(수정중...)</title>
+    <link href="http://localhost:4000/posts/tech/" rel="alternate" type="text/html" title="1. Firestore에 마이그레이션한 JSON 데이터로 Google Maps Polygon 시각화하기(수정중...)" />
     <published>2025-08-03T10:00:00+09:00</published>
   
-    <updated>2025-08-03T10:00:00+09:00</updated>
+    <updated>2025-09-02T00:53:03+09:00</updated>
   
     <id>http://localhost:4000/posts/tech/</id>
     <content type="text/html" src="http://localhost:4000/posts/tech/" />
@@ -98,11 +72,11 @@
 
   
   <entry>
-    <title>사용법</title>
-    <link href="http://localhost:4000/posts/introduce/" rel="alternate" type="text/html" title="사용법" />
+    <title>사용법(수정중...)</title>
+    <link href="http://localhost:4000/posts/introduce/" rel="alternate" type="text/html" title="사용법(수정중...)" />
     <published>2025-08-01T10:00:00+09:00</published>
   
-    <updated>2025-09-01T22:21:18+09:00</updated>
+    <updated>2025-09-02T00:53:03+09:00</updated>
   
     <id>http://localhost:4000/posts/introduce/</id>
     <content type="text/html" src="http://localhost:4000/posts/introduce/" />
@@ -144,7 +118,33 @@
     
   
 
-  <summary>창고 관리 DB 개요  Presentation</summary>
+  <summary>Presentation</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Ansible 자동화로 구현한 클라우드 환경 DevOps</title>
+    <link href="http://localhost:4000/posts/linuxansible/" rel="alternate" type="text/html" title="Ansible 자동화로 구현한 클라우드 환경 DevOps" />
+    <published>2020-11-24T10:00:00+09:00</published>
+  
+    <updated>2025-09-02T15:13:59+09:00</updated>
+  
+    <id>http://localhost:4000/posts/linuxansible/</id>
+    <content type="text/html" src="http://localhost:4000/posts/linuxansible/" />
+    <author>
+      <name>Minyoung Kim</name>
+    </author>
+
+  
+    
+    <category term="K-Digital" />
+    
+    <category term="수료 과정" />
+    
+  
+
+  <summary></summary>
 
   </entry>
 

@@ -1,8 +1,8 @@
 [
   
   {
-    "title": "파쿠르 스팟 앱 UI/UX",
-    "url": "/posts/example/",
+    "title": "파쿠르 스팟 앱 UI/UX(수정중...)",
+    "url": "/posts/UIUX/",
     "categories": "파쿠르 스팟(Parkour Spot in Korea), Design/UI·UX",
     "tags": "parkourspot, figma",
     "date": "2025-09-01 10:00:00 +0900",
@@ -10,16 +10,7 @@
   },
   
   {
-    "title": "파쿠르 스팟 앱 UI/UX",
-    "url": "/posts/UIUX/",
-    "categories": "파쿠르 스팟(Parkour Spot in Korea), Design/UI·UX",
-    "tags": "parkourspot, figma",
-    "date": "2025-09-01 10:00:00 +0900",
-    "content": "                        "
-  },
-  
-  {
-    "title": "1. Firestore에 마이그레이션한 JSON 데이터로 Google Maps Polygon 시각화하기",
+    "title": "1. Firestore에 마이그레이션한 JSON 데이터로 Google Maps Polygon 시각화하기(수정중...)",
     "url": "/posts/tech/",
     "categories": "파쿠르 스팟(Parkour Spot in Korea), 기술/기능",
     "tags": "parkourspot, firestore, migration, polygon, googlemap",
@@ -28,7 +19,7 @@
   },
   
   {
-    "title": "사용법",
+    "title": "사용법(수정중...)",
     "url": "/posts/introduce/",
     "categories": "파쿠르 스팟(Parkour Spot in Korea), docs",
     "tags": "parkourspot",
@@ -42,7 +33,16 @@
     "categories": "AWS, 프로젝트(Project)",
     "tags": "project, aws",
     "date": "2021-03-31 10:00:00 +0900",
-    "content": "창고 관리 DB 개요  Presentation "
+    "content": "Presentation   "
+  },
+  
+  {
+    "title": "Ansible 자동화로 구현한 클라우드 환경 DevOps",
+    "url": "/posts/linuxansible/",
+    "categories": "K-Digital, 수료 과정",
+    "tags": "ansible, devops, linux",
+    "date": "2020-11-24 10:00:00 +0900",
+    "content": "  "
   },
   
   {
