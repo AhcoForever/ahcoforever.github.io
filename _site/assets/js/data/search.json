@@ -1,27 +1,27 @@
 [
   
   {
-    "title": "파쿠르 스팟 - 위치 기반 파쿠르 장소 추천 앱 기획",
+    "title": "파쿠르 스팟 - 위치 기반 파쿠르 장소 추천 앱 기획(수정중...)",
     "url": "/posts/parkourspot-planning/",
-    "categories": "파쿠르 스팟(Parkour Spot in Korea), 기획 및 디자인",
+    "categories": "파쿠르 스팟(Parkour Spot in Korea), 1. 기획 및 디자인",
     "tags": "parkourspot, figma",
     "date": "2025-09-01 10:00:00 +0900",
-    "content": "Local-First scratch Map 기반 서비스를 제공하는 파쿠르 스팟 앱 기획에 대해 설명합니다."
+    "content": "본 문서는 파쿠르 스팟 애플리케이션의 배경과 기획을 소개하며, 개인 프로젝트로 시작된 작업이 팀 프로젝트로 확장된 과정을 설명합니다."
   },
   
   {
     "title": "파쿠르 스팟 앱 UI/UX(수정중...)",
     "url": "/posts/parkourspot-ui/",
-    "categories": "파쿠르 스팟(Parkour Spot in Korea), 기획 및 디자인",
+    "categories": "파쿠르 스팟(Parkour Spot in Korea), 1. 기획 및 디자인",
     "tags": "parkourspot, figma",
-    "date": "2025-09-01 10:00:00 +0900",
+    "date": "2025-08-30 10:00:00 +0900",
     "content": "파쿠르 스팟 애플리케이션의 전반적 UI 설명"
   },
   
   {
     "title": "1. Firestore에 마이그레이션한 JSON 데이터로 Google Maps Polygon 시각화하기(수정중...)",
-    "url": "/posts/tech/",
-    "categories": "파쿠르 스팟(Parkour Spot in Korea), 기술/기능",
+    "url": "/posts/migrationtofirestore/",
+    "categories": "파쿠르 스팟(Parkour Spot in Korea), 2. 기술 및 기능",
     "tags": "parkourspot, firestore, migration, polygon, googlemap",
     "date": "2025-08-03 10:00:00 +0900",
     "content": " "

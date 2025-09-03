@@ -2,7 +2,7 @@
 title: 파쿠르 스팟 앱 UI/UX(수정중...)
 description: 파쿠르 스팟 애플리케이션의 전반적 UI 설명
 date: 2025-08-30 10:00:00 +0900
-categories: [파쿠르 스팟(Parkour Spot in Korea), 기획 및 디자인]
+categories: [파쿠르 스팟(Parkour Spot in Korea), 1. 기획 및 디자인]
 tags: [parkourspot, figma]     # 태그는 소문자 권장
 ---
 

@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Home | Minyoung Kim</title>
   <subtitle>Minyoung's blog</subtitle>
-  <updated>2025-09-03T19:08:00+09:00</updated>
+  <updated>2025-09-04T02:15:06+09:00</updated>
   <author>
     <name>Minyoung Kim</name>
     <uri>http://localhost:4000/</uri>
@@ -20,11 +20,11 @@
 
   
   <entry>
-    <title>파쿠르 스팟 - 위치 기반 파쿠르 장소 추천 앱 기획</title>
-    <link href="http://localhost:4000/posts/parkourspot-planning/" rel="alternate" type="text/html" title="파쿠르 스팟 - 위치 기반 파쿠르 장소 추천 앱 기획" />
+    <title>파쿠르 스팟 - 위치 기반 파쿠르 장소 추천 앱 기획(수정중...)</title>
+    <link href="http://localhost:4000/posts/parkourspot-planning/" rel="alternate" type="text/html" title="파쿠르 스팟 - 위치 기반 파쿠르 장소 추천 앱 기획(수정중...)" />
     <published>2025-09-01T10:00:00+09:00</published>
   
-    <updated>2025-09-01T10:00:00+09:00</updated>
+    <updated>2025-09-03T23:39:16+09:00</updated>
   
     <id>http://localhost:4000/posts/parkourspot-planning/</id>
     <content type="text/html" src="http://localhost:4000/posts/parkourspot-planning/" />
@@ -36,11 +36,11 @@
     
     <category term="파쿠르 스팟(Parkour Spot in Korea)" />
     
-    <category term="기획 및 디자인" />
+    <category term="1. 기획 및 디자인" />
     
   
 
-  <summary>Local-First scratch Map 기반 서비스를 제공하는 파쿠르 스팟 앱 기획에 대해 설명합니다.</summary>
+  <summary>본 문서는 파쿠르 스팟 애플리케이션의 배경과 기획을 소개하며, 개인 프로젝트로 시작된 작업이 팀 프로젝트로 확장된 과정을 설명합니다.</summary>
 
   </entry>
 
@@ -48,9 +48,9 @@
   <entry>
     <title>파쿠르 스팟 앱 UI/UX(수정중...)</title>
     <link href="http://localhost:4000/posts/parkourspot-ui/" rel="alternate" type="text/html" title="파쿠르 스팟 앱 UI/UX(수정중...)" />
-    <published>2025-09-01T10:00:00+09:00</published>
+    <published>2025-08-30T10:00:00+09:00</published>
   
-    <updated>2025-09-01T10:00:00+09:00</updated>
+    <updated>2025-09-03T23:36:53+09:00</updated>
   
     <id>http://localhost:4000/posts/parkourspot-ui/</id>
     <content type="text/html" src="http://localhost:4000/posts/parkourspot-ui/" />
@@ -62,7 +62,7 @@
     
     <category term="파쿠르 스팟(Parkour Spot in Korea)" />
     
-    <category term="기획 및 디자인" />
+    <category term="1. 기획 및 디자인" />
     
   
 
@@ -73,13 +73,13 @@
   
   <entry>
     <title>1. Firestore에 마이그레이션한 JSON 데이터로 Google Maps Polygon 시각화하기(수정중...)</title>
-    <link href="http://localhost:4000/posts/tech/" rel="alternate" type="text/html" title="1. Firestore에 마이그레이션한 JSON 데이터로 Google Maps Polygon 시각화하기(수정중...)" />
+    <link href="http://localhost:4000/posts/migrationtofirestore/" rel="alternate" type="text/html" title="1. Firestore에 마이그레이션한 JSON 데이터로 Google Maps Polygon 시각화하기(수정중...)" />
     <published>2025-08-03T10:00:00+09:00</published>
   
-    <updated>2025-09-02T16:49:22+09:00</updated>
+    <updated>2025-08-03T10:00:00+09:00</updated>
   
-    <id>http://localhost:4000/posts/tech/</id>
-    <content type="text/html" src="http://localhost:4000/posts/tech/" />
+    <id>http://localhost:4000/posts/migrationtofirestore/</id>
+    <content type="text/html" src="http://localhost:4000/posts/migrationtofirestore/" />
     <author>
       <name>Minyoung Kim</name>
     </author>
@@ -88,7 +88,7 @@
     
     <category term="파쿠르 스팟(Parkour Spot in Korea)" />
     
-    <category term="기술/기능" />
+    <category term="2. 기술 및 기능" />
     
   
 
