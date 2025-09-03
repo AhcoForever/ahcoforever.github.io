@@ -1,5 +1,5 @@
 ---
-title: 파쿠르 스팟 - 위치 기반 파쿠르 장소 추천 앱 기획
+title: 파쿠르 스팟 위치 기반 파쿠르 장소 추천 앱 기획
 description: Local-First scratch Map 기반 서비스를 제공하는 파쿠르 스팟 앱 기획에 대해 설명합니다.
 date: 2025-09-01 10:00:00 +0900
 categories: [파쿠르 스팟(Parkour Spot in Korea), 기획 및 디자인]
@@ -49,4 +49,5 @@ tags: [parkourspot, figma]     # 태그는 소문자 권장
 
 ## 3. App SiteMap
 다음은 앱 기획 단계에서 메뉴와 기능을 구조화하기 위해 사이트맵을 작성했습니다. 이를 통해 사용자 경험을 최적화하고, 앱의 주요 기능을 명확히 정의할 수 있었습니다.
+
 <embed src="/assets/files/app_map.pdf" type="application/pdf" width="100%" height="600px" />
