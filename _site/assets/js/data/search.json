@@ -1,9 +1,18 @@
 [
   
   {
+    "title": "파쿠르 스팟 - 위치 기반 파쿠르 장소 추천 앱 기획",
+    "url": "/posts/parkourspot-planning/",
+    "categories": "파쿠르 스팟(Parkour Spot in Korea), 기획 및 디자인",
+    "tags": "parkourspot, figma",
+    "date": "2025-09-01 10:00:00 +0900",
+    "content": "Local-First scratch Map 기반 서비스를 제공하는 파쿠르 스팟 앱 기획에 대해 설명합니다."
+  },
+  
+  {
     "title": "파쿠르 스팟 앱 UI/UX(수정중...)",
-    "url": "/posts/UIUX/",
-    "categories": "파쿠르 스팟(Parkour Spot in Korea), Design/UI·UX",
+    "url": "/posts/parkourspot-ui/",
+    "categories": "파쿠르 스팟(Parkour Spot in Korea), 기획 및 디자인",
     "tags": "parkourspot, figma",
     "date": "2025-09-01 10:00:00 +0900",
     "content": "파쿠르 스팟 애플리케이션의 전반적 UI 설명"

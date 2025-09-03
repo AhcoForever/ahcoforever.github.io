@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: Home | Minyoung Kim # the main title
 
-tagline: 크로스 플랫폼 Flutter를 기반으로 파쿠르 스팟 (Parkour Spot) 애플리케이션 개발 중 입니다.  # it will display as the subtitle
+tagline: tagline: 해당 사이트는 GitHub Pages로 직접 제작한 블로그이며, Flutter로 파쿠르 스팟 앱을 개발하는 과정을 담았습니다.
 
 description: >- # used by seo meta and the atom feed
   Minyoung's blog
