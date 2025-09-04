@@ -1,0 +1,8 @@
+---
+title: 1. Firestore에 마이그레이션한 JSON 데이터로 Google Maps Polygon 시각화하기(수정중...)
+description: 
+date: 2025-08-03 10:00:00 +0900
+categories: [파쿠르 스팟(Parkour Spot in Korea), 2. 기술 및 기능]
+tags: [parkourspot, firestore, migration, polygon, googlemap]     
+# 태그는 소문자 권장
+---
