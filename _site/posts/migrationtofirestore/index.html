@@ -673,9 +673,9 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="148 words"
+  title="365 words"
 >
-  <em>1 min</em> read</span>
+  <em>2 min</em> read</span>
 
         </div>
       </div>
@@ -707,13 +707,17 @@
   
 
   <div class="content">
-    <h2 id="개요"><span class="me-2">개요</span><a href="#개요" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+    <h2 id="대한민국-행정-경계-데이터-활용"><span class="me-2">대한민국 행정 경계 데이터 활용</span><a href="#대한민국-행정-경계-데이터-활용" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 <p>Scratch map(스크래치 맵)을 구현하기 위해선 Google Map에 polygon으로 대한민국 경계선을 그려주어야 합니다. 이 경계선은 시, 군, 구, 동을 구분시켜주는 선으로 대한민국 국토교통부 공식 홈페이지에서 데이터 리소스를 제공해주고 있습니다.<br />
 <a href="https://www.data.go.kr/data/15125045/fileData.do?recommendDataYn=Y">국토교통부</a></p>
 
-<p>하지만 이 데이터 확장자는 SHP로 되어있어 이를 JSON으로 변환하는 작업이 필요합니다.</p>
+<p>하지만 이 데이터 확장자는 SHP로 되어있어 이를 JSON으로 변환하는 작업이 필요합니다. 또한, 시도 별로 파일이 나누어져 있어 이를 하나로 합치는 작업도 추가로 해주어야 하기 때문에 다소 번거로움이 있습니다.</p>
+
+<p>감사하게도 깃허브에 대한민국 경계데이터를 geojson으로 변환해주신 분이 계셔서 이를 활용하였습니다. 업데이트로 2025년 최신으로 유지해주셔서 데이터로써 가치가 있습니다.</p>
 
 <p><a href="https://github.com/vuski/admdongkor">대한민국 행정동 경계 파일</a></p>
+
+<p>먼저 이 데이터를 이용해서 실제로 Google Map에 대한민국 경계가 그려지는지 검증하는 과정이 필요합니다. 빠른 확인을 위해 assets 라이브러리에 35GB 용량의 HangJeongDong_ver20250401.geojson 파일을 넣고 Google Map에 그려지는지 확인해보았습니다.</p>
 
   </div>
 
@@ -2191,9 +2195,9 @@
     let giscusAttributes = {
       src: 'https://giscus.app/client.js',
       'data-repo': 'AhcoForever/AhcoForever.github.io',
-      'data-repo-id': '',
-      'data-category': '',
-      'data-category-id': '',
+      'data-repo-id': 'R_kgDOPdyu8g',
+      'data-category': 'General',
+      'data-category-id': 'DIC_kwDOPdyu8s4Cu-Mf',
       'data-mapping': 'pathname',
       'data-strict' : '0',
       'data-reactions-enabled': '1',
