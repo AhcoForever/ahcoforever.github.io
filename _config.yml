@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: Home | Minyoung Kim # the main title
 
-tagline: 해당 사이트는 GitHub Pages로 직접 제작한 블로그이며, Flutter로 파쿠르 스팟 앱을 개발하는 과정을 담았습니다.
+tagline: 해당 사이트는 GitHub Pages로 제작한 블로그이며, Flutter로 파쿠르 스팟 앱을 기획 단계부터 배포까지 개발 여정과 트러블슈팅하는 과정을 기록하고 있습니다..
 
 description: >- # used by seo meta and the atom feed
   Minyoung's blog

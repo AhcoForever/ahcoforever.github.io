@@ -4,7 +4,7 @@ description: 대한민국 시군구 경계 데이터를 Firestore에 마이그�
 date: 2025-08-03 10:00:00 +0900
 comments: true
 categories: [파쿠르 스팟(Parkour Spot in Korea), 2. 기술 및 기능]
-tags: [parkourspot, firestore, migration, polygon, googlemap, hexagon]
+tags: [parkourspot, firestore, migration, polygon, googlemap, crud]
  
 # 태그는 소문자 권장
 ---
@@ -12,6 +12,10 @@ tags: [parkourspot, firestore, migration, polygon, googlemap, hexagon]
 ## 대한민국 행정 경계 데이터 활용
 Scratch map(스크래치 맵)을 구현하기 위해선 Google Map에 polygon으로 대한민국 경계선을 그려주어야 합니다. 이 경계선은 시, 군, 구, 동을 구분시켜주는 선으로 대한민국 국토교통부 공식 홈페이지에서 데이터 리소스를 제공해주고 있습니다.  
 [국토교통부](https://www.data.go.kr/data/15125045/fileData.do?recommendDataYn=Y)
+
+> Scratch Map은 지도에 사용자의 위치를 기록하여 다녀간 발자취를 시각적으로 보여줍니다. 이름처럼 사용자가 지도를 스크래치하여 자신만의 지도를 만들어 간다는 느낌을 줍니다. 
+
+
 
 하지만 이 데이터 확장자는 SHP로 되어있어 이를 JSON으로 변환하는 작업이 필요합니다. 또한, 시도 별로 파일이 나누어져 있어 이를 하나로 합치는 작업도 추가로 해주어야 하기 때문에 다소 번거로움이 있습니다. 
 
