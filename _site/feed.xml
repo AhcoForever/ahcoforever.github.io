@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Home | Minyoung Kim</title>
   <subtitle>Minyoung's blog</subtitle>
-  <updated>2025-09-05T11:27:26+09:00</updated>
+  <updated>2025-09-06T00:29:23+09:00</updated>
   <author>
     <name>Minyoung Kim</name>
     <uri>http://localhost:4000/</uri>
@@ -76,7 +76,7 @@
     <link href="http://localhost:4000/posts/migrationtofirestore/" rel="alternate" type="text/html" title="Firestore에 마이그레이션한 JSON 데이터로 Google Maps Polygon 그리기(수정중...)" />
     <published>2025-08-03T10:00:00+09:00</published>
   
-    <updated>2025-09-05T01:15:01+09:00</updated>
+    <updated>2025-09-05T14:08:01+09:00</updated>
   
     <id>http://localhost:4000/posts/migrationtofirestore/</id>
     <content type="text/html" src="http://localhost:4000/posts/migrationtofirestore/" />
