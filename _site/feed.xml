@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Home | Minyoung Kim</title>
   <subtitle>Minyoung's blog</subtitle>
-  <updated>2025-09-06T00:29:23+09:00</updated>
+  <updated>2025-09-15T14:13:55+09:00</updated>
   <author>
     <name>Minyoung Kim</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,32 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Privacy Policy</title>
+    <link href="http://localhost:4000/posts/introduce/" rel="alternate" type="text/html" title="Privacy Policy" />
+    <published>2025-09-15T10:00:00+09:00</published>
+  
+    <updated>2025-09-02T16:49:22+09:00</updated>
+  
+    <id>http://localhost:4000/posts/introduce/</id>
+    <content type="text/html" src="http://localhost:4000/posts/introduce/" />
+    <author>
+      <name>Minyoung Kim</name>
+    </author>
+
+  
+    
+    <category term="파쿠르 스팟(Parkour Spot in Korea)" />
+    
+    <category term="docs" />
+    
+  
+
+  <summary>Privacy Policy  This privacy policy applies to the Parkour Spot app (hereby referred to as “Application”) for mobile devices that was created by Minyoung Kim (hereby referred to as “Service Provider”) as a Free service. This service is intended for use “AS IS”.  Information Collection and Use  The Application collects information when you download and use it. This information may include inform...</summary>
+
+  </entry>
 
   
   <entry>
@@ -50,7 +76,7 @@
     <link href="http://localhost:4000/posts/planning/" rel="alternate" type="text/html" title="파쿠르 스팟 - 위치 기반 파쿠르 장소 추천 앱 기획" />
     <published>2025-09-01T10:00:00+09:00</published>
   
-    <updated>2025-09-01T10:00:00+09:00</updated>
+    <updated>2025-09-15T14:11:29+09:00</updated>
   
     <id>http://localhost:4000/posts/planning/</id>
     <content type="text/html" src="http://localhost:4000/posts/planning/" />
@@ -76,7 +102,7 @@
     <link href="http://localhost:4000/posts/migrationtofirestore/" rel="alternate" type="text/html" title="Firestore에 마이그레이션한 JSON 데이터로 Google Maps Polygon 그리기(수정중...)" />
     <published>2025-08-03T10:00:00+09:00</published>
   
-    <updated>2025-09-05T14:08:01+09:00</updated>
+    <updated>2025-09-15T14:11:29+09:00</updated>
   
     <id>http://localhost:4000/posts/migrationtofirestore/</id>
     <content type="text/html" src="http://localhost:4000/posts/migrationtofirestore/" />
@@ -93,32 +119,6 @@
   
 
   <summary>대한민국 시군구 경계 데이터를 Firestore에 마이그레이션하고, 이를 활용하여 Google Maps에 Polygon을 그리는 방법을 다룹니다. 또한, 사용자 위치 기반으로 육각형 polygon을 그리는 Scratch map 구현에 대해 설명합니다.</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>사용법(수정중...)</title>
-    <link href="http://localhost:4000/posts/introduce/" rel="alternate" type="text/html" title="사용법(수정중...)" />
-    <published>2025-08-01T10:00:00+09:00</published>
-  
-    <updated>2025-09-02T16:49:22+09:00</updated>
-  
-    <id>http://localhost:4000/posts/introduce/</id>
-    <content type="text/html" src="http://localhost:4000/posts/introduce/" />
-    <author>
-      <name>Minyoung Kim</name>
-    </author>
-
-  
-    
-    <category term="파쿠르 스팟(Parkour Spot in Korea)" />
-    
-    <category term="docs" />
-    
-  
-
-  <summary></summary>
 
   </entry>
 
