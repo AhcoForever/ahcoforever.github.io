@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Home | Minyoung Kim</title>
   <subtitle>Minyoung's blog</subtitle>
-  <updated>2025-09-15T14:13:55+09:00</updated>
+  <updated>2025-09-15T16:07:11+09:00</updated>
   <author>
     <name>Minyoung Kim</name>
     <uri>http://localhost:4000/</uri>
@@ -20,14 +20,40 @@
 
   
   <entry>
+    <title>Terms &amp; Conditions</title>
+    <link href="http://localhost:4000/posts/terms-and-conditions/" rel="alternate" type="text/html" title="Terms &amp;amp; Conditions" />
+    <published>2025-09-15T11:00:00+09:00</published>
+  
+    <updated>2025-09-15T11:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/terms-and-conditions/</id>
+    <content type="text/html" src="http://localhost:4000/posts/terms-and-conditions/" />
+    <author>
+      <name>Minyoung Kim</name>
+    </author>
+
+  
+    
+    <category term="파쿠르 스팟(Parkour Spot in Korea)" />
+    
+    <category term="docs" />
+    
+  
+
+  <summary>Terms &amp;amp; Conditions  These terms and conditions apply to the Parkour Spot app (hereby referred to as “Application”) for mobile devices that was created by Minyoung Kim (hereby referred to as “Service Provider”) as a Free service.  Upon downloading or utilizing the Application, you are automatically agreeing to the following terms. It is strongly advised that you thoroughly read and understan...</summary>
+
+  </entry>
+
+  
+  <entry>
     <title>Privacy Policy</title>
-    <link href="http://localhost:4000/posts/introduce/" rel="alternate" type="text/html" title="Privacy Policy" />
+    <link href="http://localhost:4000/posts/privacy-policy/" rel="alternate" type="text/html" title="Privacy Policy" />
     <published>2025-09-15T10:00:00+09:00</published>
   
-    <updated>2025-09-02T16:49:22+09:00</updated>
+    <updated>2025-09-15T10:00:00+09:00</updated>
   
-    <id>http://localhost:4000/posts/introduce/</id>
-    <content type="text/html" src="http://localhost:4000/posts/introduce/" />
+    <id>http://localhost:4000/posts/privacy-policy/</id>
+    <content type="text/html" src="http://localhost:4000/posts/privacy-policy/" />
     <author>
       <name>Minyoung Kim</name>
     </author>
@@ -99,13 +125,13 @@
   
   <entry>
     <title>Firestore에 마이그레이션한 JSON 데이터로 Google Maps Polygon 그리기(수정중...)</title>
-    <link href="http://localhost:4000/posts/migrationtofirestore/" rel="alternate" type="text/html" title="Firestore에 마이그레이션한 JSON 데이터로 Google Maps Polygon 그리기(수정중...)" />
+    <link href="http://localhost:4000/posts/migration-to-firestore/" rel="alternate" type="text/html" title="Firestore에 마이그레이션한 JSON 데이터로 Google Maps Polygon 그리기(수정중...)" />
     <published>2025-08-03T10:00:00+09:00</published>
   
-    <updated>2025-09-15T14:11:29+09:00</updated>
+    <updated>2025-08-03T10:00:00+09:00</updated>
   
-    <id>http://localhost:4000/posts/migrationtofirestore/</id>
-    <content type="text/html" src="http://localhost:4000/posts/migrationtofirestore/" />
+    <id>http://localhost:4000/posts/migration-to-firestore/</id>
+    <content type="text/html" src="http://localhost:4000/posts/migration-to-firestore/" />
     <author>
       <name>Minyoung Kim</name>
     </author>
@@ -119,32 +145,6 @@
   
 
   <summary>대한민국 시군구 경계 데이터를 Firestore에 마이그레이션하고, 이를 활용하여 Google Maps에 Polygon을 그리는 방법을 다룹니다. 또한, 사용자 위치 기반으로 육각형 polygon을 그리는 Scratch map 구현에 대해 설명합니다.</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>AWS을 사용한 시스템 성능 개선 제안서</title>
-    <link href="http://localhost:4000/posts/aws/" rel="alternate" type="text/html" title="AWS을 사용한 시스템 성능 개선 제안서" />
-    <published>2021-03-31T10:00:00+09:00</published>
-  
-    <updated>2025-09-02T16:49:22+09:00</updated>
-  
-    <id>http://localhost:4000/posts/aws/</id>
-    <content type="text/html" src="http://localhost:4000/posts/aws/" />
-    <author>
-      <name>Minyoung Kim</name>
-    </author>
-
-  
-    
-    <category term="AWS" />
-    
-    <category term="프로젝트(Project)" />
-    
-  
-
-  <summary>Presentation</summary>
 
   </entry>
 

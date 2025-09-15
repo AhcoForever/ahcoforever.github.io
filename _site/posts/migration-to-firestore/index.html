@@ -34,8 +34,8 @@
 <meta property="og:locale" content="ko" />
 <meta name="description" content="대한민국 시군구 경계 데이터를 Firestore에 마이그레이션하고, 이를 활용하여 Google Maps에 Polygon을 그리는 방법을 다룹니다. 또한, 사용자 위치 기반으로 육각형 polygon을 그리는 Scratch map 구현에 대해 설명합니다." />
 <meta property="og:description" content="대한민국 시군구 경계 데이터를 Firestore에 마이그레이션하고, 이를 활용하여 Google Maps에 Polygon을 그리는 방법을 다룹니다. 또한, 사용자 위치 기반으로 육각형 polygon을 그리는 Scratch map 구현에 대해 설명합니다." />
-<link rel="canonical" href="http://localhost:4000/posts/migrationtofirestore/" />
-<meta property="og:url" content="http://localhost:4000/posts/migrationtofirestore/" />
+<link rel="canonical" href="http://localhost:4000/posts/migration-to-firestore/" />
+<meta property="og:url" content="http://localhost:4000/posts/migration-to-firestore/" />
 <meta property="og:site_name" content="Home Minyoung Kim" />
 <meta property="og:image" content="http://localhost:4000/assets/img/Product_Lockup_Cloud_Firestore_Vertical_Full_Color.png" />
 <meta property="og:type" content="article" />
@@ -45,7 +45,7 @@
 <meta property="twitter:title" content="Firestore에 마이그레이션한 JSON 데이터로 Google Maps Polygon 그리기(수정중…)" />
 <meta name="google-site-verification" content="Ilqjkaapu0og0OfZ2nLey-xiFAxxyhvfmmaHo4siNqY" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-09-15T14:11:29+09:00","datePublished":"2025-08-03T10:00:00+09:00","description":"대한민국 시군구 경계 데이터를 Firestore에 마이그레이션하고, 이를 활용하여 Google Maps에 Polygon을 그리는 방법을 다룹니다. 또한, 사용자 위치 기반으로 육각형 polygon을 그리는 Scratch map 구현에 대해 설명합니다.","headline":"Firestore에 마이그레이션한 JSON 데이터로 Google Maps Polygon 그리기(수정중…)","image":"http://localhost:4000/assets/img/Product_Lockup_Cloud_Firestore_Vertical_Full_Color.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/migrationtofirestore/"},"url":"http://localhost:4000/posts/migrationtofirestore/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-03T10:00:00+09:00","datePublished":"2025-08-03T10:00:00+09:00","description":"대한민국 시군구 경계 데이터를 Firestore에 마이그레이션하고, 이를 활용하여 Google Maps에 Polygon을 그리는 방법을 다룹니다. 또한, 사용자 위치 기반으로 육각형 polygon을 그리는 Scratch map 구현에 대해 설명합니다.","headline":"Firestore에 마이그레이션한 JSON 데이터로 Google Maps Polygon 그리기(수정중…)","image":"http://localhost:4000/assets/img/Product_Lockup_Cloud_Firestore_Vertical_Full_Color.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/migration-to-firestore/"},"url":"http://localhost:4000/posts/migration-to-firestore/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -926,29 +926,6 @@
 
       <!-- lastmod date -->
       
-        <span>
-          Updated
-          <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1757913089"
-  data-df="ll"
-  
-    data-bs-toggle="tooltip" data-bs-placement="bottom"
-  
->
-  Sep 15, 2025
-</time>
-
-        </span>
-      
 
       
         
@@ -1576,21 +1553,21 @@ Future&lt;Set&lt;Polygon&gt;&gt; fetchAndCachePolygons(int sido) async {
 
       
 
-      <a href="https://twitter.com/intent/tweet?text=Firestore%EC%97%90%20%EB%A7%88%EC%9D%B4%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%95%9C%20JSON%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%A1%9C%20Google%20Maps%20Polygon%20%EA%B7%B8%EB%A6%AC%EA%B8%B0(%EC%88%98%EC%A0%95%EC%A4%91...)%20-%20Home%20%7C%20Minyoung%20Kim&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fmigrationtofirestore%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+      <a href="https://twitter.com/intent/tweet?text=Firestore%EC%97%90%20%EB%A7%88%EC%9D%B4%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%95%9C%20JSON%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%A1%9C%20Google%20Maps%20Polygon%20%EA%B7%B8%EB%A6%AC%EA%B8%B0(%EC%88%98%EC%A0%95%EC%A4%91...)%20-%20Home%20%7C%20Minyoung%20Kim&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fmigration-to-firestore%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
         <i class="fa-fw fa-brands fa-square-x-twitter"></i>
       </a>
     
 
       
 
-      <a href="https://www.facebook.com/sharer/sharer.php?title=Firestore%EC%97%90%20%EB%A7%88%EC%9D%B4%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%95%9C%20JSON%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%A1%9C%20Google%20Maps%20Polygon%20%EA%B7%B8%EB%A6%AC%EA%B8%B0(%EC%88%98%EC%A0%95%EC%A4%91...)%20-%20Home%20%7C%20Minyoung%20Kim&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fmigrationtofirestore%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?title=Firestore%EC%97%90%20%EB%A7%88%EC%9D%B4%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%95%9C%20JSON%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%A1%9C%20Google%20Maps%20Polygon%20%EA%B7%B8%EB%A6%AC%EA%B8%B0(%EC%88%98%EC%A0%95%EC%A4%91...)%20-%20Home%20%7C%20Minyoung%20Kim&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fmigration-to-firestore%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
         <i class="fa-fw fab fa-facebook-square"></i>
       </a>
     
 
       
 
-      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fmigrationtofirestore%2F&text=Firestore%EC%97%90%20%EB%A7%88%EC%9D%B4%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%95%9C%20JSON%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%A1%9C%20Google%20Maps%20Polygon%20%EA%B7%B8%EB%A6%AC%EA%B8%B0(%EC%88%98%EC%A0%95%EC%A4%91...)%20-%20Home%20%7C%20Minyoung%20Kim" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fmigration-to-firestore%2F&text=Firestore%EC%97%90%20%EB%A7%88%EC%9D%B4%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%95%9C%20JSON%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%A1%9C%20Google%20Maps%20Polygon%20%EA%B7%B8%EB%A6%AC%EA%B8%B0(%EC%88%98%EC%A0%95%EC%A4%91...)%20-%20Home%20%7C%20Minyoung%20Kim" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
         <i class="fa-fw fab fa-telegram"></i>
       </a>
     
@@ -1645,14 +1622,21 @@ Future&lt;Set&lt;Polygon&gt;&gt; fetchAndCachePolygons(int sido) async {
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/migrationtofirestore/">Firestore에 마이그레이션한 JSON 데이터로 Google Maps Polygon 그리기(수정중...)</a>
+          <a href="/posts/planning/">파쿠르 스팟 - 위치 기반 파쿠르 장소 추천 앱 기획</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/planning/">파쿠르 스팟 - 위치 기반 파쿠르 장소 추천 앱 기획</a>
+          <a href="/posts/terms-and-conditions/">Terms & Conditions</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/posts/privacy-policy/">Privacy Policy</a>
         </li>
       
         
@@ -1667,13 +1651,6 @@ Future&lt;Set&lt;Polygon&gt;&gt; fetchAndCachePolygons(int sido) async {
         
         <li class="text-truncate lh-lg">
           <a href="/posts/linuxansible/">Ansible 자동화로 구현한 클라우드 환경 DevOps</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/posts/aws/">AWS을 사용한 시스템 성능 개선 제안서</a>
         </li>
       
     </ul>
@@ -2250,6 +2227,18 @@ Future&lt;Set&lt;Polygon&gt;&gt; fetchAndCachePolygons(int sido) async {
 
   
 
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
 
 
 
@@ -2293,7 +2282,35 @@ Future&lt;Set&lt;Polygon&gt;&gt; fetchAndCachePolygons(int sido) async {
         </article>
       
         <article class="col">
-          <a href="/posts/introduce/" class="post-preview card h-100">
+          <a href="/posts/terms-and-conditions/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1757901600"
+  data-df="ll"
+  
+>
+  Sep 15, 2025
+</time>
+
+              <h4 class="pt-0 my-2">Terms & Conditions</h4>
+              <div class="text-muted">
+                <p>**Terms & Conditions**    These terms and conditions apply to the Parkour Spot app (hereby referred to as "Application") for mobile devices that was created by Minyoung Kim (hereby referred to as "...</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/posts/privacy-policy/" class="post-preview card h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -2315,34 +2332,6 @@ Future&lt;Set&lt;Polygon&gt;&gt; fetchAndCachePolygons(int sido) async {
               <h4 class="pt-0 my-2">Privacy Policy</h4>
               <div class="text-muted">
                 <p>**Privacy Policy**  This privacy policy applies to the Parkour Spot app (hereby referred to as "Application") for mobile devices that was created by Minyoung Kim (hereby referred to as "Service Pro...</p>
-              </div>
-            </div>
-          </a>
-        </article>
-      
-        <article class="col">
-          <a href="/posts/planning/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1756688400"
-  data-df="ll"
-  
->
-  Sep  1, 2025
-</time>
-
-              <h4 class="pt-0 my-2">파쿠르 스팟 - 위치 기반 파쿠르 장소 추천 앱 기획</h4>
-              <div class="text-muted">
-                <p>본 문서는 파쿠르 스팟 애플리케이션의 배경과 기획을 소개하며, 개인 프로젝트로 시작된 작업이 팀 프로젝트로 확장된 과정을 설명합니다.</p>
               </div>
             </div>
           </a>
