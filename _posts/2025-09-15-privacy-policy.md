@@ -1,7 +1,7 @@
 ---
 title: Privacy Policy
 date: 2025-09-15 10:00:00 +0900
-categories: [파쿠르 스팟(Parkour Spot in Korea), docs]
+categories: [파쿠르 스팟(Parkour Spot in Korea), Policy]
 tags: [parkourspot]     # 태그는 소문자 권장
 ---
 
