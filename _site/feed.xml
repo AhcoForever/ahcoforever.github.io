@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Home | Minyoung Kim</title>
   <subtitle>Minyoung's blog</subtitle>
-  <updated>2025-09-15T16:07:11+09:00</updated>
+  <updated>2025-12-30T16:32:20+09:00</updated>
   <author>
     <name>Minyoung Kim</name>
     <uri>http://localhost:4000/</uri>
@@ -24,7 +24,7 @@
     <link href="http://localhost:4000/posts/terms-and-conditions/" rel="alternate" type="text/html" title="Terms &amp;amp; Conditions" />
     <published>2025-09-15T11:00:00+09:00</published>
   
-    <updated>2025-09-15T11:00:00+09:00</updated>
+    <updated>2025-11-17T18:19:39+09:00</updated>
   
     <id>http://localhost:4000/posts/terms-and-conditions/</id>
     <content type="text/html" src="http://localhost:4000/posts/terms-and-conditions/" />
@@ -36,7 +36,7 @@
     
     <category term="파쿠르 스팟(Parkour Spot in Korea)" />
     
-    <category term="docs" />
+    <category term="Policy" />
     
   
 
@@ -62,7 +62,7 @@
     
     <category term="파쿠르 스팟(Parkour Spot in Korea)" />
     
-    <category term="docs" />
+    <category term="Policy" />
     
   
 
