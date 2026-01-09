@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📚 용어 학습 카드</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f5f5f5;
+      min-height: 100vh;
+      padding: 24px;
+    }
+    
+    .container {
+      max-width: 640px;
+      margin: 0 auto;
+    }
+    
+    h1 {
+      font-size: 24px;
+      color: #333;
+      margin-bottom: 8px;
+    }
+    
+    .subtitle {
+      color: #888;
+      font-size: 14px;
+      margin-bottom: 24px;
+    }
+    
+    .controls {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 24px;
+    }
+    
+    .btn {
+      padding: 10px 16px;
+      border: none;
+      border-radius: 8px;
+      font-size: 14px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    
+    .btn-primary {
+      background: #3b82f6;
+      color: white;
+    }
+    
+    .btn-primary:hover {
+      background: #2563eb;
+    }
+    
+    .btn-secondary {
+      background: #9ca3af;
+      color: white;
+    }
+    
+    .btn-secondary:hover {
+      background: #6b7280;
+    }
+    
+    .cards {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 32px;
+    }
+    
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 16px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+    }
+    
+    .card-number {
+      color: #aaa;
+      font-size: 14px;
+      padding-top: 4px;
+    }
+    
+    .card-content {
+      flex: 1;
+    }
+    
+    .term-btn {
+      padding: 6px 12px;
+      border-radius: 8px;
+      border: none;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.2s;
+      margin-bottom: 8px;
+    }
+    
+    .term-hidden {
+      background: #fef3c7;
+      color: #b45309;
+    }
+    
+    .term-hidden:hover {
+      background: #fde68a;
+    }
+    
+    .term-revealed {
+      background: #d1fae5;
+      color: #047857;
+    }
+    
+    .term-revealed:hover {
+      background: #a7f3d0;
+    }
+    
+    .hint {
+      font-size: 12px;
+      color: #aaa;
+      margin-left: 8px;
+    }
+    
+    .definition {
+      color: #555;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+    
+    .delete-btn {
+      background: none;
+      border: none;
+      color: #ccc;
+      cursor: pointer;
+      font-size: 18px;
+      padding: 4px;
+    }
+    
+    .delete-btn:hover {
+      color: #f87171;
+    }
+    
+    .add-form {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    
+    .add-form h2 {
+      font-size: 16px;
+      color: #555;
+      margin-bottom: 16px;
+    }
+    
+    .form-group {
+      margin-bottom: 12px;
+    }
+    
+    .form-group input,
+    .form-group textarea {
+      width: 100%;
+      padding: 10px 12px;
+      border: 1px solid #e5e7eb;
+      border-radius: 8px;
+      font-size: 14px;
+      font-family: inherit;
+    }
+    
+    .form-group input:focus,
+    .form-group textarea:focus {
+      outline: none;
+      border-color: #93c5fd;
+      box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+    }
+    
+    .form-group textarea {
+      resize: none;
+      height: 60px;
+    }
+    
+    .btn-add {
+      width: 100%;
+      padding: 12px;
+      background: #3b82f6;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+    
+    .btn-add:hover {
+      background: #2563eb;
+    }
+    
+    .btn-add:disabled {
+      background: #d1d5db;
+      cursor: not-allowed;
+    }
+    
+    .loading {
+      text-align: center;
+      padding: 40px;
+      color: #888;
+    }
+    
+    .empty {
+      text-align: center;
+      padding: 40px;
+      color: #aaa;
+      background: white;
+      border-radius: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>📚 용어 학습 카드</h1>
+    <p class="subtitle">??? 를 클릭하면 용어가 나타납니다</p>
+    
+    <div class="controls">
+      <button class="btn btn-primary" onclick="revealAll()">전체 보기</button>
+      <button class="btn btn-secondary" onclick="hideAll()">전체 숨기기</button>
+    </div>
+    
+    <div id="cards" class="cards">
+      <div class="loading">불러오는 중...</div>
+    </div>
+    
+    <div class="add-form">
+      <h2>➕ 새 용어 추가</h2>
+      <div class="form-group">
+        <input type="text" id="newTerm" placeholder="용어 (예: API)">
+      </div>
+      <div class="form-group">
+        <textarea id="newDefinition" placeholder="설명 (예: 응용 프로그램 간의 통신을 위한...)"></textarea>
+      </div>
+      <button class="btn-add" onclick="addTerm()">추가하기</button>
+    </div>
+  </div>
+
+  <!-- Firebase SDK -->
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+    import { getFirestore, collection, addDoc, deleteDoc, doc, onSnapshot, orderBy, query } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
+    
+    // Firebase 설정
+    const firebaseConfig = {
+      apiKey: "AIzaSyDf9JYX0taZdlGWCx1SMY5bXHGhH1vOLHA",
+      authDomain: "sessac-tour.firebaseapp.com",
+      projectId: "sessac-tour",
+      storageBucket: "sessac-tour.firebasestorage.app",
+      messagingSenderId: "1099123195229",
+      appId: "1:1099123195229:web:e79b1f6176a4f0cbb9bcb4",
+      measurementId: "G-93218HFRE5"
+    };
+    
+    // Firebase 초기화
+    const app = initializeApp(firebaseConfig);
+    const db = getFirestore(app);
+    
+    // 상태 관리
+    let terms = [];
+    let revealedIds = new Set();
+    
+    // 카드 렌더링
+    function renderCards() {
+      const container = document.getElementById('cards');
+      
+      if (terms.length === 0) {
+        container.innerHTML = '<div class="empty">아직 용어가 없습니다. 아래에서 추가해보세요!</div>';
+        return;
+      }
+      
+      container.innerHTML = terms.map((item, index) => {
+        const isRevealed = revealedIds.has(item.id);
+        return `
+          <div class="card">
+            <span class="card-number">${index + 1}.</span>
+            <div class="card-content">
+              <div>
+                <button class="term-btn ${isRevealed ? 'term-revealed' : 'term-hidden'}" 
+                        onclick="toggleReveal('${item.id}')">
+                  ${isRevealed ? item.term : '???'}
+                </button>
+                ${isRevealed ? '<span class="hint">(클릭하여 숨기기)</span>' : ''}
+              </div>
+              <p class="definition">${item.definition}</p>
+            </div>
+            <button class="delete-btn" onclick="deleteTerm('${item.id}')">✕</button>
+          </div>
+        `;
+      }).join('');
+    }
+    
+    // 토글
+    window.toggleReveal = function(id) {
+      if (revealedIds.has(id)) {
+        revealedIds.delete(id);
+      } else {
+        revealedIds.add(id);
+      }
+      renderCards();
+    };
+    
+    // 전체 보기
+    window.revealAll = function() {
+      terms.forEach(t => revealedIds.add(t.id));
+      renderCards();
+    };
+    
+    // 전체 숨기기
+    window.hideAll = function() {
+      revealedIds.clear();
+      renderCards();
+    };
+    
+    // 용어 추가
+    window.addTerm = async function() {
+      const termInput = document.getElementById('newTerm');
+      const defInput = document.getElementById('newDefinition');
+      
+      const term = termInput.value.trim();
+      const definition = defInput.value.trim();
+      
+      if (!term || !definition) {
+        alert('용어와 설명을 모두 입력해주세요.');
+        return;
+      }
+      
+      try {
+        await addDoc(collection(db, 'study-cards'), {
+          term,
+          definition,
+          createdAt: new Date()
+        });
+        
+        termInput.value = '';
+        defInput.value = '';
+      } catch (error) {
+        console.error('추가 실패:', error);
+        alert('추가에 실패했습니다.');
+      }
+    };
+    
+    // 용어 삭제
+    window.deleteTerm = async function(id) {
+      if (!confirm('정말 삭제할까요?')) return;
+      
+      try {
+        await deleteDoc(doc(db, 'study-cards', id));
+        revealedIds.delete(id);
+      } catch (error) {
+        console.error('삭제 실패:', error);
+        alert('삭제에 실패했습니다.');
+      }
+    };
+    
+    // 실시간 데이터 동기화
+    const q = query(collection(db, 'study-cards'), orderBy('createdAt', 'asc'));
+    onSnapshot(q, (snapshot) => {
+      terms = snapshot.docs.map(doc => ({
+        id: doc.id,
+        ...doc.data()
+      }));
+      renderCards();
+    });
+  </script>
+</body>
+</html>
